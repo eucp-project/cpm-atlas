@@ -1,6 +1,10 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/cpm-atlas',
+    mode: 'hash'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
